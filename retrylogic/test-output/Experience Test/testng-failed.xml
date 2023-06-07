@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Experience Test]" guice-stage="DEVELOPMENT">
+  <test name="ebay test(failed)">
+    <classes>
+      <class name="testttt.testpage">
+        <methods>
+          <include name="test2"/>
+          <include name="test1"/>
+        </methods>
+      </class> <!-- testttt.testpage -->
+    </classes>
+  </test> <!-- ebay test(failed) -->
+</suite> <!-- Failed suite [Experience Test] -->

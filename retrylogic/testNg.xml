@@ -1,0 +1,25 @@
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name = "retrylogic" verbose="1">
+	
+	<listeners>
+		
+		<listener class-name="analyzer.AnotationTransformer"></listener>
+		
+	</listeners>
+	
+
+    <test name = "testing retry logic">
+
+     <classes>
+     
+           <class name = "testttt.testpage"></class>
+          
+              
+      </classes>
+     
+    </test>
+    
+</suite>
+

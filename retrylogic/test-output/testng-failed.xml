@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [retrylogic]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="analyzer.AnotationTransformer"/>
+  </listeners>
+  <test name="testing retry logic(failed)">
+    <classes>
+      <class name="testttt.testpage">
+        <methods>
+          <include name="test2"/>
+          <include name="test1"/>
+        </methods>
+      </class> <!-- testttt.testpage -->
+    </classes>
+  </test> <!-- testing retry logic(failed) -->
+</suite> <!-- Failed suite [retrylogic] -->
